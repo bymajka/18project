@@ -1,0 +1,16 @@
+.advantage {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+}
+
+.advantage_header {
+    font-size: 28px;
+    letter-spacing: -1.4px;
+    padding-bottom: 16px;
+}
+
+.advantage img {
+    height: 100px;
+    width: 100px;
+}

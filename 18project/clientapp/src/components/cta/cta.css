@@ -1,0 +1,25 @@
+.welcome_block_wrapper {
+    padding-top: 120px;
+    max-width: 1512px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.welcome_block {
+    display: flex;
+    max-height: 604px;
+    justify-content: space-between;
+  }
+  
+  .welcome_block-left {
+    flex: 1;
+    max-width: 721px;
+    min-width: 619px;
+  }
+  
+  .h1block {
+    font-size: 18px;
+    line-height: 26px;
+    color: #151515;
+    padding-bottom: 40px;
+  }

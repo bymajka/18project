@@ -1,0 +1,30 @@
+.pricing-intro { 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.pricing-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+    justify-content: center;
+    flex: 1;
+}
+
+.pricing-content h1 {
+    font-size: 60px;
+    letter-spacing: -3px;
+    line-height: 3.5rem;
+}
+
+.pricing-image {
+    flex: 0.9;
+}
+
+.pricing_membership-subscriptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

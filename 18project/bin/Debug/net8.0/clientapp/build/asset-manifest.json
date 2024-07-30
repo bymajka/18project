@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.189c9bc8.css",
+    "main.js": "/static/js/main.759a8060.js",
+    "static/js/453.c42b233b.chunk.js": "/static/js/453.c42b233b.chunk.js",
+    "static/media/NeueMachina-Regular.woff": "/static/media/NeueMachina-Regular.d64094f47aa8215253c6.woff",
+    "static/media/NeueMachina-Ultrabold.woff": "/static/media/NeueMachina-Ultrabold.6efca1e13bdf1ea0768b.woff",
+    "static/media/atc_img.svg": "/static/media/atc_img.e40142fe01cf1044d47258bfaa344646.svg",
+    "static/media/NeueMachina-Regular.woff2": "/static/media/NeueMachina-Regular.2dabb3622c2ec78c26ea.woff2",
+    "static/media/NeueMachina-Ultrabold.woff2": "/static/media/NeueMachina-Ultrabold.5310e4a5401b5d25eeba.woff2",
+    "static/media/payment_systems.svg": "/static/media/payment_systems.c3074869e1c279d2125de5709843dc49.svg",
+    "index.html": "/index.html",
+    "static/media/menu_icon.svg": "/static/media/menu_icon.b960b6e95e5f83a8e6fe6c9bf673c2f4.svg",
+    "main.189c9bc8.css.map": "/static/css/main.189c9bc8.css.map",
+    "main.759a8060.js.map": "/static/js/main.759a8060.js.map",
+    "453.c42b233b.chunk.js.map": "/static/js/453.c42b233b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.189c9bc8.css",
+    "static/js/main.759a8060.js"
+  ]
+}

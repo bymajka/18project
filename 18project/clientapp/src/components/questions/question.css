@@ -1,0 +1,26 @@
+.question-container {
+  border-bottom: 1px solid #151515;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  }
+
+  .question-container:last-child {
+    border-bottom: none;
+  }
+  
+  .question {
+    font-family: var(--font-family-bold);
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  .answer {
+    padding: 20px 2.5rem 0 0;
+    font-size: 18px;
+    line-height: 26px;
+  }

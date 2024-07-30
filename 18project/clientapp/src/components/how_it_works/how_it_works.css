@@ -1,0 +1,36 @@
+.how_it_works {
+    display: flex;
+    justify-content: space-between;
+}
+
+.how_it_works-content {
+    align-items: start;
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+}
+
+.how_it_works_advantage-list {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 48px;
+}
+
+.how_it_works-image {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+
+.how_it_works-image img {
+    width: 490px;
+    height: 700px;
+}
+
+.how_it_works-content h1 {
+    font-size: 60px;
+    letter-spacing: -3px;
+    line-height: 3.5rem;
+}

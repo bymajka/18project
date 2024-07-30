@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'NeueMachina-Regular';
+    src: url(./assets/fonts/NeueMachina-Regular.woff2) format('woff2'),
+        url(./assets/fonts/NeueMachina-Regular.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family: 'NeueMachina-Ultrabold';
+    src: url(./assets/fonts/NeueMachina-Ultrabold.woff2) format('woff2'),
+        url(./assets/fonts/NeueMachina-Ultrabold.woff) format('woff');
+  }
+
+.wrap_main-content {
+    max-width: 1512px;
+    margin: 0 auto;
+} 
+
+:root {
+    --color-bg: #f0f0f0;
+    --font-family: 'NeueMachina-Regular';
+    --font-family-bold: 'NeueMachina-Ultrabold';
+
+    vertical-align: middle;
+}
+
