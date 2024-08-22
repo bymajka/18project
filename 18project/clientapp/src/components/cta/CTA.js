@@ -1,4 +1,4 @@
-function CTA() {
+const CTA = () => {
   return (
     <div class="cta_wrapper">
       <div class="cta">
@@ -20,6 +20,6 @@ function CTA() {
       </div>
     </div>
   );
-}
+};
 
 export default CTA;

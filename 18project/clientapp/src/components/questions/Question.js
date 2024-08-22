@@ -3,16 +3,16 @@ import "./question.css";
 import question_icon from "../../assets/svg/question_icon.svg";
 import answer_icon from "../../assets/svg/answer_icon.svg";
 
-const Question = ({ question, answer }) => {
+const Question = ({ id, question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAnswer = () => {
-    setIsOpen(!isOpen);
+    setIsOpen((prev) => !prev);
   };
 
   return (
     <div className="question-container">
-      <div className="question" onClick={toggleAnswer}>
+      <div className="question" id={id} onClick={toggleAnswer}>
         {question}
         <img
           src={isOpen ? answer_icon : question_icon}

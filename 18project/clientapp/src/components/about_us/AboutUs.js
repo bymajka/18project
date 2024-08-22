@@ -4,6 +4,23 @@ import about_us_image from "../../assets/svg/about_us_img.svg";
 import Feature from "../features/Feature";
 import icon from "../../assets/svg/feature_list-element_icon-black_img.svg";
 
+const features = [
+  {
+    feature_text: "Shared Cloud Libraries, for a single source of truth",
+    id: "feature_1",
+  },
+  {
+    feature_text: "Prototype previews for user testing and research",
+    id: "feature_2",
+  },
+  { feature_text: "Easy organization with projects", id: "feature_3" },
+  {
+    feature_text: "Free developer handoff, right inside the browser",
+    id: "feature_4",
+  },
+  { feature_text: "Two-factor authentication and SSO", id: "feature_5" },
+];
+
 const AboutUs = () => {
   return (
     <div className="about_us section__padding" id="about-us">
@@ -22,26 +39,13 @@ const AboutUs = () => {
           feedback for free.
         </p>
         <div className="about_us-feature_list">
-          <Feature
-            feature_description="Shared Cloud Libraries, for a single source of truth"
-            icon={icon}
-          />
-          <Feature
-            feature_description="Prototype previews for user testing and research"
-            icon={icon}
-          />
-          <Feature
-            feature_description="Easy organization with projects"
-            icon={icon}
-          />
-          <Feature
-            feature_description="Free developer handoff, right inside the browser"
-            icon={icon}
-          />
-          <Feature
-            feature_description="Two-factor authentication and SSO"
-            icon={icon}
-          />
+          {features.map((f) => (
+            <Feature
+              id={f.id}
+              feature_description={f.feature_text}
+              icon={icon}
+            />
+          ))}
         </div>
       </div>
     </div>

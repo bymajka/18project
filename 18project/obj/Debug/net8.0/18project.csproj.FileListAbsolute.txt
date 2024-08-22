@@ -37,3 +37,4 @@ E:\Profile Projects\18project\18project\obj\Debug\net8.0\18project.genruntimecon
 E:\Profile Projects\18project\18project\obj\Debug\net8.0\ref\18project.dll
 E:\Profile Projects\18project\18project\bin\Debug\net8.0\clientapp\build\asset-manifest.json
 E:\Profile Projects\18project\18project\bin\Debug\net8.0\clientapp\build\manifest.json
+E:\Profile Projects\18project\18project\obj\Debug\net8.0\18project.sourcelink.json

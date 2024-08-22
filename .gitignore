@@ -1,8 +1,8 @@
 .DS_Store
 
 # dotnet core
-bin/
-obj/
+18project/bin
+18project/obj
 project.lock.json
 NuGetScratch/
 
@@ -11,14 +11,11 @@ api/wwwroot/**
 !api/wwwroot/favicon.ico
 
 # node
-node_modules/
-typings/
+18project/clientapp/node_modules
 npm-debug.log
 
 # client-react
-client-react/components/*.js
-client-react.test/build
-!client-react.test/build/client-react/styles/
+18project/clientapp/build
 
 # ops
 ops/hosts

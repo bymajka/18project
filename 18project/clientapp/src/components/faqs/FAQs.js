@@ -8,26 +8,31 @@ const questions = [
     question: "How much does a Teams subscription cost?",
     answer:
       "Contributors are members of your team who need access to use the Mac app to create and edit Sketch documents. These prices don’t include sales tax, which may still apply. Head over to our pricing page to get full details.",
+    id: "question_1",
   },
   {
     question: "Do I still need to purchase licenses for the Mac app?",
     answer:
       "Contributors are members of your team who need access to use the Mac app to create and edit Sketch documents. These prices don’t include sales tax, which may still apply. Head over to our pricing page to get full details.",
+    id: "question_2",
   },
   {
     question: "What are the differences between Contributors and Viewers?",
     answer:
       "Contributors are members of your team who need access to use the Mac app to create and edit Sketch documents. These prices don’t include sales tax, which may still apply. Head over to our pricing page to get full details.",
+    id: "question_3",
   },
   {
     question: "How long does the free Teams subscription trial last?",
     answer:
       "Contributors are members of your team who need access to use the Mac app to create and edit Sketch documents. These prices don’t include sales tax, which may still apply. Head over to our pricing page to get full details.",
+    id: "question_4",
   },
   {
     question: "Will program for Teams replace volume licensing?",
     answer:
       "Contributors are members of your team who need access to use the Mac app to create and edit Sketch documents. These prices don’t include sales tax, which may still apply. Head over to our pricing page to get full details.",
+    id: "question_5",
   },
 ];
 
@@ -47,8 +52,8 @@ const FAQs = () => {
           </p>
         </div>
         <div className="faqs_questions-list">
-          {questions.map((q, index) => (
-            <Question key={index} question={q.question} answer={q.answer} />
+          {questions.map((q) => (
+            <Question question={q.question} answer={q.answer} id={q.id} />
           ))}
         </div>
       </div>

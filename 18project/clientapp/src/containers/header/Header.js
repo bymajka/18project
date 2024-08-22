@@ -2,7 +2,7 @@ import "./header.css";
 import payment_systems from "../../assets/svg/payment_systems.svg";
 import atc_img from "../../assets/svg/atc_img.svg";
 
-function Header() {
+const Header = () => {
   return (
     <div className="header header__padding" id="header">
       <div className="header-content">
@@ -25,6 +25,6 @@ function Header() {
       </div>
     </div>
   );
-}
+};
 
 export default Header;

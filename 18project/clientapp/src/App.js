@@ -4,7 +4,7 @@ import "./index.css";
 import { AboutUs, HIW, Navbar, Pricing, FAQs } from "./components";
 import { Header, Footer } from "./containers";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <div className="wrap_main-content">
@@ -18,6 +18,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

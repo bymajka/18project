@@ -1,11 +1,11 @@
 import React from "react";
 import "./advantage.css";
 
-function Advantage({
+const Advantage = ({
   advantage_list_element_icon,
   advantage_header,
   advantage_description,
-}) {
+}) => {
   return (
     <div className="advantage">
       <img src={advantage_list_element_icon} alt="advantage_icon" />
@@ -15,6 +15,6 @@ function Advantage({
       </div>
     </div>
   );
-}
+};
 
 export default Advantage;
